@@ -69,10 +69,7 @@ $(function() {
   $('#undo_redo').multiselect();
  // $('select').selectpicker();
 
- $('.selectall').click(function(){
-
-    $('.selectall option['selected ']')
- });
+ 
 
 });
 
