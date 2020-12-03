@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function () 
+{
     return view('welcome');
 });
 
 Route::view('/todo','todo');
+Route::view('/jquery','jquery1');
+Route::view('/multi','mult');
+Route::view('/add','addcheck');
